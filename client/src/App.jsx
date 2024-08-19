@@ -18,7 +18,7 @@ function App() {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ queryDescription })
-    });
+    }); 
 
     const data = await response.json();
     return data.response.trim();

@@ -1,6 +1,6 @@
 import openaiClient from './api.js';
 
-const generate = async (queryDescription) => {
+const generate = async (queryDescription) => { 
 
     const chatGptApi = async (queryDescription) => {
         const messages = [

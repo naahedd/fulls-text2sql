@@ -11,7 +11,7 @@ const port = process.env.PORT || 3005;
 
 app.get('/', (req, res) => {
     res.send('Hello from our API');
-});
+}); 
 
 app.post('/generate', async (req, res) => {
     const queryDescription = req.body.queryDescription;
